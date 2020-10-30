@@ -1,0 +1,10 @@
+.parallax {
+    background-image: url("https://www.games4u.com/sc/br/g4u/_imgwy_/c09bbf814c90c629b2440934a90588af/?i=http%3A%2F%2Fimages.terra.com%2F2020%2F03%2F07%2Fragnarok-interna2.jpg");
+
+    min-height: 500px;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
