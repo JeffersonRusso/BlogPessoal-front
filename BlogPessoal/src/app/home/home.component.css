@@ -1,10 +1,83 @@
-.parallax {
-    background-image: url("https://www.games4u.com/sc/br/g4u/_imgwy_/c09bbf814c90c629b2440934a90588af/?i=http%3A%2F%2Fimages.terra.com%2F2020%2F03%2F07%2Fragnarok-interna2.jpg");
-
-    min-height: 500px;
-
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
+.circleImg {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .circleImg img {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+  .img-wrapper {
+      height: 12rem;
+      width : 12rem;
+      
+      border-radius: 50%;
+      overflow: hidden
+    }
+    
+    .img-wrapper > img {
+      height: 100%
+    }
+  
+    .round-container {
+      width: 17rem;
+      height: 17rem;
+      align-self: center;
+      border-radius: 100%;
+      margin: 2.3rem auto 2.5rem auto;
+      overflow: hidden;
+      position: relative;
+  }
+  .round-container img {
+      width: initial;
+      height: inherit;
+      max-width: none;
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+  }.circleImg {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .circleImg img {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+  .img-wrapper {
+      height: 12rem;
+      width : 12rem;
+      
+      border-radius: 50%;
+      overflow: hidden
+    }
+    
+    .img-wrapper > img {
+      height: 100%
+    }
+  
+    .round-container {
+      width: 17rem;
+      height: 17rem;
+      align-self: center;
+      border-radius: 100%;
+      margin: 2.3rem auto 2.5rem auto;
+      overflow: hidden;
+      position: relative;
+  }
+  .round-container img {
+      width: initial;
+      height: inherit;
+      max-width: none;
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+  }
