@@ -11,10 +11,24 @@
             <li class="nav-item">
               <a class="nav-link text-monospace text" routerLink='/feed'>FEED</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link text-monospace text" href="#">OUTROS</a>
-             
-            </li>
+            <div *ngIf='auth.btnLogin()'>
+              <li class="nav-item">
+                <a class="nav-link text-monospace text" routerLink='/cadastro'>CADASTRAR</a>
+              </li> 
+            </div>
+            <div *ngIf='auth.btnLogin()'>
+              <li class="nav-item">
+                <a class="nav-link text-monospace text" routerLink='/login'>LOGIN</a>
+              </li> 
+            </div>
+            <div *ngIf='auth.btnSair()'>
+              <li class="nav-item">
+                <a class="nav-link text-monospace text" routerLink='/feed' (click) = 'sair()'>SAIR</a>
+              </li>
+              
+            </div>
+            
+          
           
           </ul>
         </div>

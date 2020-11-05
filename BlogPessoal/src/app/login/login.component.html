@@ -8,17 +8,17 @@
       <div class="col-md-6">
         <div>
           <div class="form-group">
-            <label for="email">Nome de usuário</label>
-            <input type="email" class="form-control" id="email" placeholder="Seu nome de usuário cadastrado" [(ngModel)] = 'userLogin.usuario' >
+            <label for="usuario">Nome de usuário</label>
+            <input type="text" class="form-control" id="usuario" placeholder="Seu nome de usuário cadastrado" [(ngModel)] = 'userLogin.usuario' >
           </div>
           <div class="form-group">
-            <label for="exampleInputPassword1">Senha</label>
-            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Senha" [(ngModel)] = 'userLogin.senha'>
+            <label for="pass">Senha</label>
+            <input type="password" class="form-control" id="pass" placeholder="Senha" [(ngModel)] = 'userLogin.senha'>
           </div>
           <div class="d-flex justify-content-center">
             <button type="submit" class="btn btn-outline-success w-25 " (click) = 'entrar()' >Entrar</button>
           </div>
-  
+
         </div>
       </div>
     </div>
